@@ -29,6 +29,12 @@ Back End:
 The server for Piece Meal is built with Node.js and Express with a PostgreSQL database. To connect the server and database Knex and Bookshelf are used.
 For authentication PieceMeal uses Facebook OAuth with Passport Sessions to authenticate and authorize students and JWT Tokens are transported in cookies for admins. Additional technologies used include bcrypt, Circles-CI, body-parser, and mocha/supertest for testing.
 
+To view the Swagger UI interface:
+
+```
+open http://piecemeal-api.herokuapp.com/api-docs/
+```
+
 ### Running the App:
 To run PieceMeal:
 
