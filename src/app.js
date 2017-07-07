@@ -1,21 +1,24 @@
-import promiseMiddleware from 'redux-promise-middleware';
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import { createStore, applyMiddleware, compose } from 'redux';
-// import { StackNavigator } from 'react-navigation';
-import reducers from './reducers';
-import { Tabs } from './config/router';
+import promiseMiddleware from 'redux-promise-middleware';
+import { createStore, applyMiddleware } from 'redux';
+import { composeWithDevTools } from 'remote-redux-devtools';
 
-const store = createStore(reducers,
-  applyMiddleware(promiseMiddleware())
-);
+import reducers from './reducers';
+import { MainRouter } from './config/router';
+
+const store = createStore(reducers, composeWithDevTools(
+  applyMiddleware(promiseMiddleware()),
+));
+
+console.warn();
+console.ignoredYellowBox = [''];
 
 class App extends Component {
-
   render() {
     return (
       <Provider store={store}>
-        <Tabs />
+        <MainRouter />
       </Provider>
     );
   }

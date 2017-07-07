@@ -1,8 +1,15 @@
-const searchRecipe = (state = [], action) => {
+const INITIAL_STATE = {
+  recipes: [],
+  ingredients: [],
+  filterRestricted: false
+};
+
+const searchRecipe = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case 'SEARCH_RECIPE_FULFILLED':
-    // console.log(action.payload);
-      return action.payload; //result of your promise == become new state
+      return { ...state, ...action.payload };
+    case 'SET_FILTER_RESTRICTED':
+      return { ...state, filterRestricted: action.newValue };
     default:
       return state;
   }

@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1497919906559" clover="3.2.0">
+  <project timestamp="1497919906559" name="All files">
+    <metrics statements="447" coveredstatements="208" conditionals="104" coveredconditionals="57" methods="232" coveredmethods="47" elements="783" coveredelements="312" complexity="0" loc="447" ncloc="447" packages="9" files="44" classes="44">
+      <package name="PieceMealV2">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="setupJest.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/setupJest.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="3" count="36" type="stmt"/>
+        </file>
+      </package>
+      <package name="PieceMealV2.src.actions">
+        <metrics statements="119" coveredstatements="45" conditionals="10" coveredconditionals="1" methods="64" coveredmethods="3"/>
+        <file name="addRecipe.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/actions/addRecipe.js">
+          <metrics statements="30" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="15" coveredmethods="0"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="13" count="2" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="20" count="2" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="27" count="2" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="34" count="2" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="41" count="2" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="48" count="2" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="55" count="2" type="stmt"/>
+          <line num="56" count="0" type="stmt"/>
+          <line num="62" count="2" type="stmt"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="69" count="2" type="stmt"/>
+          <line num="70" count="0" type="stmt"/>
+          <line num="76" count="2" type="stmt"/>
+          <line num="77" count="0" type="stmt"/>
+          <line num="80" count="2" type="stmt"/>
+          <line num="81" count="0" type="stmt"/>
+          <line num="84" count="2" type="stmt"/>
+          <line num="85" count="0" type="stmt"/>
+          <line num="89" count="0" type="stmt"/>
+          <line num="90" count="0" type="stmt"/>
+          <line num="101" count="0" type="stmt"/>
+        </file>
+        <file name="charts.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/actions/charts.js">
+          <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="3" count="13" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+        </file>
+        <file name="client.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/actions/client.js">
+          <metrics statements="10" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
+          <line num="3" count="14" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="10" count="14" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="17" count="14" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/actions/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="ingredients.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/actions/ingredients.js">
+          <metrics statements="26" coveredstatements="13" conditionals="8" coveredconditionals="1" methods="10" coveredmethods="3"/>
+          <line num="3" count="13" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="7" count="13" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="14" count="13" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="21" count="13" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="28" count="13" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="32" count="13" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="37" count="13" type="stmt"/>
+          <line num="38" count="2" type="stmt"/>
+          <line num="39" count="2" type="stmt"/>
+          <line num="40" count="2" type="stmt"/>
+          <line num="41" count="2" type="cond" truecount="1" falsecount="1"/>
+          <line num="42" count="2" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="45" count="0" type="stmt"/>
+          <line num="64" count="0" type="stmt"/>
+          <line num="77" count="0" type="stmt"/>
+          <line num="78" count="0" type="stmt"/>
+          <line num="79" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="80" count="0" type="stmt"/>
+          <line num="82" count="0" type="stmt"/>
+        </file>
+        <file name="login.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/actions/login.js">
+          <metrics statements="17" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="9" coveredmethods="0"/>
+          <line num="3" count="13" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="10" count="13" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="17" count="13" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="24" count="13" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="31" count="13" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="73" count="0" type="stmt"/>
+        </file>
+        <file name="recipes.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/actions/recipes.js">
+          <metrics statements="18" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="0"/>
+          <line num="3" count="13" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="7" count="13" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="11" count="13" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="15" count="13" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="62" count="0" type="stmt"/>
+        </file>
+        <file name="signup.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/actions/signup.js">
+          <metrics statements="14" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="0"/>
+          <line num="3" count="13" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="10" count="13" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="17" count="13" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="24" count="13" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="31" count="13" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="38" count="13" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="PieceMealV2.src.components">
+        <metrics statements="25" coveredstatements="13" conditionals="8" coveredconditionals="1" methods="15" coveredmethods="4"/>
+        <file name="Charts.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Charts.js">
+          <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="46" count="2" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+        </file>
+        <file name="Profile.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Profile.js">
+          <metrics statements="8" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="1"/>
+          <line num="26" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="78" count="2" type="stmt"/>
+          <line num="89" count="2" type="stmt"/>
+          <line num="90" count="0" type="stmt"/>
+        </file>
+        <file name="SearchResults.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/SearchResults.js">
+          <metrics statements="14" coveredstatements="8" conditionals="4" coveredconditionals="1" methods="8" coveredmethods="2"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="44" count="1" type="stmt"/>
+          <line num="58" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="PieceMealV2.src.components.Charts">
+        <metrics statements="24" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="6"/>
+        <file name="Bar.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Charts/Bar.js">
+          <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="39" count="1" type="stmt"/>
+          <line num="85" count="1" type="stmt"/>
+          <line num="96" count="3" type="stmt"/>
+          <line num="97" count="0" type="stmt"/>
+        </file>
+        <file name="Pie.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Charts/Pie.js">
+          <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="58" count="1" type="stmt"/>
+          <line num="71" count="3" type="stmt"/>
+          <line num="72" count="0" type="stmt"/>
+          <line num="77" count="3" type="stmt"/>
+          <line num="78" count="0" type="stmt"/>
+        </file>
+        <file name="Radar.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Charts/Radar.js">
+          <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="44" count="1" type="stmt"/>
+          <line num="52" count="3" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+        </file>
+        <file name="Tree.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Charts/Tree.js">
+          <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="57" count="1" type="stmt"/>
+          <line num="66" count="3" type="stmt"/>
+          <line num="67" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="PieceMealV2.src.components.Ingredient">
+        <metrics statements="21" coveredstatements="17" conditionals="4" coveredconditionals="3" methods="10" coveredmethods="7"/>
+        <file name="GetIngredientButton.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Ingredient/GetIngredientButton.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+        </file>
+        <file name="IngredientItem.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Ingredient/IngredientItem.js">
+          <metrics statements="8" coveredstatements="7" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="20" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+        </file>
+        <file name="IngredientsHeader.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Ingredient/IngredientsHeader.js">
+          <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+        </file>
+        <file name="RestrictedIngredients.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Ingredient/RestrictedIngredients.js">
+          <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+          <line num="8" count="2" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="12" count="2" type="stmt"/>
+          <line num="16" count="2" type="stmt"/>
+          <line num="17" count="2" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="27" count="12" type="stmt"/>
+          <line num="40" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="PieceMealV2.src.components.Recipe">
+        <metrics statements="118" coveredstatements="38" conditionals="24" coveredconditionals="8" methods="69" coveredmethods="11"/>
+        <file name="Create.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Recipe/Create.js">
+          <metrics statements="35" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="27" coveredmethods="0"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="116" count="0" type="stmt"/>
+          <line num="118" count="0" type="stmt"/>
+          <line num="124" count="0" type="stmt"/>
+          <line num="140" count="0" type="stmt"/>
+          <line num="149" count="0" type="stmt"/>
+          <line num="158" count="0" type="stmt"/>
+          <line num="165" count="0" type="stmt"/>
+          <line num="179" count="0" type="stmt"/>
+          <line num="185" count="0" type="stmt"/>
+          <line num="187" count="0" type="stmt"/>
+          <line num="203" count="0" type="stmt"/>
+          <line num="205" count="0" type="stmt"/>
+          <line num="212" count="0" type="stmt"/>
+          <line num="222" count="0" type="stmt"/>
+          <line num="224" count="0" type="stmt"/>
+          <line num="234" count="0" type="stmt"/>
+          <line num="243" count="0" type="stmt"/>
+          <line num="256" count="2" type="stmt"/>
+          <line num="257" count="0" type="stmt"/>
+          <line num="279" count="2" type="stmt"/>
+          <line num="281" count="2" type="stmt"/>
+          <line num="290" count="2" type="stmt"/>
+        </file>
+        <file name="Fab.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Recipe/Fab.js">
+          <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+        </file>
+        <file name="FavoriteRecipes.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Recipe/FavoriteRecipes.js">
+          <metrics statements="23" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="0"/>
+          <line num="22" count="2" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="58" count="0" type="stmt"/>
+          <line num="62" count="0" type="stmt"/>
+          <line num="66" count="0" type="stmt"/>
+          <line num="67" count="0" type="stmt"/>
+          <line num="68" count="0" type="stmt"/>
+          <line num="69" count="0" type="stmt"/>
+          <line num="70" count="0" type="stmt"/>
+          <line num="71" count="0" type="stmt"/>
+          <line num="72" count="0" type="stmt"/>
+          <line num="73" count="0" type="stmt"/>
+          <line num="74" count="0" type="stmt"/>
+          <line num="90" count="0" type="stmt"/>
+          <line num="91" count="0" type="stmt"/>
+          <line num="127" count="0" type="stmt"/>
+          <line num="137" count="2" type="stmt"/>
+          <line num="138" count="0" type="stmt"/>
+        </file>
+        <file name="GetRecipeButton.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Recipe/GetRecipeButton.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+        </file>
+        <file name="NewRecipe.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Recipe/NewRecipe.js">
+          <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="75" count="2" type="stmt"/>
+          <line num="76" count="0" type="stmt"/>
+        </file>
+        <file name="RecipeHeader.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Recipe/RecipeHeader.js">
+          <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+        </file>
+        <file name="RecipeIngredients.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Recipe/RecipeIngredients.js">
+          <metrics statements="13" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="6" coveredmethods="0"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="60" count="5" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+        </file>
+        <file name="RecipeItem.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Recipe/RecipeItem.js">
+          <metrics statements="8" coveredstatements="7" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="2"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="16" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="21" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+        </file>
+        <file name="RecipeModal.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Recipe/RecipeModal.js">
+          <metrics statements="7" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="5" coveredmethods="1"/>
+          <line num="8" count="3" type="stmt"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="116" count="0" type="stmt"/>
+          <line num="124" count="0" type="stmt"/>
+        </file>
+        <file name="RecipeSteps.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Recipe/RecipeSteps.js">
+          <metrics statements="8" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+        </file>
+        <file name="RecipeView.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/components/Recipe/RecipeView.js">
+          <metrics statements="12" coveredstatements="10" conditionals="8" coveredconditionals="4" methods="3" coveredmethods="2"/>
+          <line num="8" count="2" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="20" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="93" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="PieceMealV2.src.config">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="api.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/config/api.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="15" type="stmt"/>
+        </file>
+      </package>
+      <package name="PieceMealV2.src.reducers">
+        <metrics statements="53" coveredstatements="44" conditionals="38" coveredconditionals="37" methods="8" coveredmethods="6"/>
+        <file name="RecipeSelectionReducer.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/reducers/RecipeSelectionReducer.js">
+          <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+          <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="5" type="stmt"/>
+        </file>
+        <file name="RecipesReducer.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/reducers/RecipesReducer.js">
+          <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
+          <line num="4" count="7" type="cond" truecount="3" falsecount="0"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="13" count="5" type="stmt"/>
+        </file>
+        <file name="chartsReducer.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/reducers/chartsReducer.js">
+          <metrics statements="12" coveredstatements="3" conditionals="3" coveredconditionals="2" methods="3" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="6" count="5" type="cond" truecount="1" falsecount="1"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="22" count="5" type="stmt"/>
+        </file>
+        <file name="clientReducer.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/reducers/clientReducer.js">
+          <metrics statements="9" coveredstatements="9" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="16" count="11" type="cond" truecount="5" falsecount="0"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="22" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="23" count="2" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="28" count="2" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="39" count="4" type="stmt"/>
+        </file>
+        <file name="ingredientsReducer.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/reducers/ingredientsReducer.js">
+          <metrics statements="14" coveredstatements="14" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
+          <line num="5" count="22" type="cond" truecount="11" falsecount="0"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="11" count="2" type="stmt"/>
+          <line num="14" count="2" type="stmt"/>
+          <line num="16" count="3" type="stmt"/>
+          <line num="18" count="3" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="24" count="2" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="28" count="2" type="stmt"/>
+          <line num="30" count="2" type="stmt"/>
+        </file>
+        <file name="loginReducer.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/reducers/loginReducer.js">
+          <metrics statements="9" coveredstatements="9" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="10" count="10" type="cond" truecount="7" falsecount="0"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="24" count="4" type="stmt"/>
+        </file>
+      </package>
+      <package name="PieceMealV2.src.screens">
+        <metrics statements="85" coveredstatements="30" conditionals="20" coveredconditionals="7" methods="55" coveredmethods="10"/>
+        <file name="DashboardForm.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/screens/DashboardForm.js">
+          <metrics statements="8" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="62" count="1" type="stmt"/>
+          <line num="63" count="0" type="stmt"/>
+        </file>
+        <file name="IngredientList.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/screens/IngredientList.js">
+          <metrics statements="22" coveredstatements="10" conditionals="6" coveredconditionals="3" methods="14" coveredmethods="4"/>
+          <line num="8" count="2" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="25" count="2" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="45" count="0" type="stmt"/>
+          <line num="53" count="2" type="stmt"/>
+          <line num="58" count="2" type="stmt"/>
+          <line num="59" count="2" type="stmt"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="67" count="6" type="stmt"/>
+          <line num="68" count="0" type="stmt"/>
+          <line num="71" count="6" type="stmt"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="78" count="0" type="stmt"/>
+          <line num="85" count="2" type="stmt"/>
+          <line num="86" count="2" type="stmt"/>
+          <line num="100" count="2" type="stmt"/>
+          <line num="101" count="0" type="stmt"/>
+        </file>
+        <file name="LandingPage.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/screens/LandingPage.js">
+          <metrics statements="10" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="2"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="61" count="1" type="stmt"/>
+          <line num="62" count="0" type="stmt"/>
+          <line num="64" count="0" type="stmt"/>
+          <line num="69" count="1" type="stmt"/>
+        </file>
+        <file name="RecipeList.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/screens/RecipeList.js">
+          <metrics statements="24" coveredstatements="8" conditionals="6" coveredconditionals="3" methods="15" coveredmethods="2"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="58" count="1" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="61" count="1" type="stmt"/>
+          <line num="65" count="0" type="stmt"/>
+          <line num="66" count="0" type="stmt"/>
+          <line num="71" count="1" type="stmt"/>
+          <line num="72" count="1" type="stmt"/>
+          <line num="88" count="1" type="stmt"/>
+          <line num="89" count="0" type="stmt"/>
+          <line num="91" count="0" type="stmt"/>
+          <line num="96" count="1" type="stmt"/>
+          <line num="97" count="0" type="stmt"/>
+        </file>
+        <file name="SignupForm.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/screens/SignupForm.js">
+          <metrics statements="19" coveredstatements="4" conditionals="4" coveredconditionals="1" methods="13" coveredmethods="1"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="67" count="0" type="stmt"/>
+          <line num="69" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="70" count="0" type="stmt"/>
+          <line num="76" count="0" type="stmt"/>
+          <line num="81" count="1" type="stmt"/>
+          <line num="137" count="0" type="stmt"/>
+          <line num="150" count="1" type="stmt"/>
+          <line num="171" count="1" type="stmt"/>
+          <line num="172" count="0" type="stmt"/>
+          <line num="183" count="1" type="stmt"/>
+          <line num="184" count="0" type="stmt"/>
+          <line num="186" count="0" type="stmt"/>
+        </file>
+        <file name="ViewRecipeScreen.js" path="/Users/mmartinez/Desktop/Galvanize/Q3/capstone/PieceMealV2/src/screens/ViewRecipeScreen.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

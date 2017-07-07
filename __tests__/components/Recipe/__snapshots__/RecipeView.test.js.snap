@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests RecipeView renders RecipeView component 1`] = `
+<Styled(Content)>
+  <Styled(Card)
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Styled(CardItem)
+      header={true}
+      style={
+        Object {
+          "alignSelf": "center",
+        }
+      }
+    >
+      <Styled(Text)
+        style={
+          Object {
+            "color": "#373737",
+            "fontFamily": "Futura",
+            "fontSize": 24,
+            "marginTop": 20,
+            "paddingTop": 15,
+          }
+        }
+      >
+        Name
+      </Styled(Text)>
+    </Styled(CardItem)>
+    <Styled(CardItem)>
+      <Styled(Body)>
+        <Image
+          source={1}
+          style={
+            Object {
+              "height": 200,
+              "resizeMode": "contain",
+              "shadowColor": "#faebd7",
+              "width": 340,
+            }
+          }
+        />
+        <Styled(Text)
+          note={true}
+          style={
+            Object {
+              "alignSelf": "center",
+              "fontFamily": "Futura",
+              "marginBottom": 10,
+              "marginLeft": 20,
+              "marginRight": 15,
+              "marginTop": 15,
+            }
+          }
+        >
+          "
+          description
+          "
+        </Styled(Text)>
+      </Styled(Body)>
+    </Styled(CardItem)>
+    <Styled(H3)
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#C0B083",
+          "fontFamily": "Futura",
+        }
+      }
+    >
+      Instructions:
+    </Styled(H3)>
+    <Styled(CardItem)>
+      <RecipeSteps
+        instructions="instructions"
+      />
+    </Styled(CardItem)>
+    <Styled(H3)
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#C0B083",
+          "fontFamily": "Futura",
+        }
+      }
+    >
+      Ingredients:
+    </Styled(H3)>
+    <Styled(CardItem)>
+      <Connect(RecipeIngredients) />
+    </Styled(CardItem)>
+    <Styled(CardItem)
+      footer={true}
+      style={
+        Object {
+          "paddingBottom": 25,
+        }
+      }
+    >
+      <Styled(Text)
+        note={true}
+        style={
+          Object {
+            "fontFamily": "Futura",
+          }
+        }
+      >
+        notes
+      </Styled(Text)>
+    </Styled(CardItem)>
+    <Styled(CardItem)
+      footer={true}
+    />
+  </Styled(Card)>
+</Styled(Content)>
+`;
