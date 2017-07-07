@@ -1,8 +1,6 @@
 # PieceMeal V2
 
-![alt tag](https://github.com/psithanant/PieceMealV2/blob/master/homepage.png)
-![alt tag](https://github.com/psithanant/PieceMealV2/blob/master/steps.png)
-![alt tag](https://github.com/psithanant/PieceMealV2/blob/master/ingredients.png)
+![alt tag](https://github.com/psithanant/PieceMealV2/blob/master/piecemeal.png)
 
 The deployed server is running at http://piecemeal-api.herokuapp.com/api-docs/. Also see the
 Github repo here; https://github.com/psithanant/piece-meal-swagger
